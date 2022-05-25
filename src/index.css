@@ -12,6 +12,7 @@
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 400;
+    overflow:hidden;
 }
 
 *,
@@ -160,6 +161,9 @@
 .navbar {
     padding-top: 50px;
     text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left:-375px;
 }
 
 .navbar h1 {
@@ -183,6 +187,7 @@
     box-shadow: inset 0px 0px 0px -15px rebeccapurple;
     transition: all 300ms ease-out;
     text-transform: capitalize;
+    width: 143px;
 }
 .btn-group__item:last-child {
     border-top-right-radius: 1rem;
