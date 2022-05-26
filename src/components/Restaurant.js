@@ -29,8 +29,14 @@ const Restaurant = () => {
 
     return (
         <>
-            <Navbar filterItem={filterItem} menuList={menuList}/>
-            <MenuCard menuData={menuData}/>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 justify-content-center d-flex">
+                        <Navbar filterItem={filterItem} menuList={menuList} />
+                    </div>
+                </div>
+                <MenuCard menuData={menuData}/>
+            </div>
         </>
     )
 }

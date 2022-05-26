@@ -10,15 +10,6 @@ const Menu = [
     },
     {
         id: 2,
-        image: "assests/images/corn.jpg",
-        name: "corn",
-        category: "breakfast",
-        price: "10₹",
-        description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
-    },
-    {
-        id: 3,
         image: "../assests/images/chola.jpg",
         name: "chola",
         category: "lunch",
@@ -27,10 +18,19 @@ const Menu = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
     },
     {
+        id: 3,
+        image: "assests/images/corn.jpg",
+        name: "corn",
+        category: "snacks",
+        price: "10₹",
+        description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
         id: 4,
         image: "assests/images/allupakoida.jpg",
-        name: "allu pakoida",
-        category: "evening",
+        name: "aloo pakoda",
+        category: "breakfast",
         price: "20₹",
         description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -39,8 +39,8 @@ const Menu = [
         id: 5,
         image: "../assests/images/pizza.jpg",
         name: "pizza",
-        category: "evening",
-        price: "80₹",
+        category: "snacks",
+        price: "100₹",
         description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
     },
@@ -49,7 +49,7 @@ const Menu = [
         image: "../assests/images/dosa.jpg",
         name: "Dosa",
         category: "dinner",
-        price: "150₹",
+        price: "80₹",
         description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
     },
@@ -75,8 +75,44 @@ const Menu = [
         id: 9,
         image: "../assests/images/samosa.jpg",
         name: "samaso",
-        category: "evening",
+        category: "breakfast",
         price: "10₹",
+        description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+        id: 10,
+        image: "../assests/images/paubhaji.jpg",
+        name: "pav bhaji",
+        category: "dinner",
+        price: "70₹",
+        description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+        id: 11,
+        image: "../assests/images/vegthali.jpg",
+        name: "veg thali",
+        category: "dinner",
+        price: "120₹",
+        description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+        id: 12,
+        image: "../assests/images/momo.jpg",
+        name: "momos",
+        category: "snacks",
+        price: "60₹",
+        description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+        id: 9,
+        image: "../assests/images/puri.jpg",
+        name: "puri sabji",
+        category: "lunch",
+        price: "40₹",
         description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
     },
